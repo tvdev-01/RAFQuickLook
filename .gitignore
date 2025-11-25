@@ -1,0 +1,71 @@
+# Xcode
+*.xcworkspace
+!default.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.moved-aside
+*.xcscmblueprint
+
+# Xcode Derived Data / build
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon must be excluded
+Icon?
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Archives / outputs
+*.app
+*.ipa
+*.dSYM
+*.framework
+*.xcarchive
+
+# Secrets / credentials
+Secrets.swift
+*.p12
+*.mobileprovision
+*.key
+*.pem
+*.cer
+
+# Optional: JetBrains IDEs
+.idea/
+
+# Optional: VSCode
+.vscode/
+

@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF9938C2ED5D874003B67B7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7BF9938B2ED5D867003B67B7 /* README.md */; };
+		7BF993972ED5EBA1003B67B7 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF993962ED5EBA1003B67B7 /* Quartz.framework */; };
+		7BF993A32ED5EBA1003B67B7 /* RAFPreviewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7BF993942ED5EBA1003B67B7 /* RAFPreviewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BF993AF2ED5EBED003B67B7 /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF993AE2ED5EBED003B67B7 /* QuickLookThumbnailing.framework */; };
+		7BF993B02ED5EBED003B67B7 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF993962ED5EBA1003B67B7 /* Quartz.framework */; };
+		7BF993B72ED5EBED003B67B7 /* RAFThumbnailExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7BF993AD2ED5EBED003B67B7 /* RAFThumbnailExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BF993A12ED5EBA1003B67B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF993752ED5D806003B67B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF993932ED5EBA1003B67B7;
+			remoteInfo = RAFPreviewExtension;
+		};
+		7BF993B52ED5EBED003B67B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF993752ED5D806003B67B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF993AC2ED5EBED003B67B7;
+			remoteInfo = RAFThumbnailExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BF993A82ED5EBA1003B67B7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7BF993A32ED5EBA1003B67B7 /* RAFPreviewExtension.appex in Embed Foundation Extensions */,
+				7BF993B72ED5EBED003B67B7 /* RAFThumbnailExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BF9937D2ED5D806003B67B7 /* RAFQuickLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAFQuickLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF9938B2ED5D867003B67B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7BF993942ED5EBA1003B67B7 /* RAFPreviewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RAFPreviewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF993962ED5EBA1003B67B7 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		7BF993AD2ED5EBED003B67B7 /* RAFThumbnailExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RAFThumbnailExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF993AE2ED5EBED003B67B7 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7BF993A42ED5EBA1003B67B7 /* Exceptions for "RAFPreviewExtension" folder in "RAFPreviewExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7BF993932ED5EBA1003B67B7 /* RAFPreviewExtension */;
+		};
+		7BF993B82ED5EBED003B67B7 /* Exceptions for "RAFThumbnailExtension" folder in "RAFThumbnailExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7BF993AC2ED5EBED003B67B7 /* RAFThumbnailExtension */;
+		};
+		7BF993BE2ED5ED1A003B67B7 /* Exceptions for "RAFQuickLook" folder in "RAFPreviewExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Common.swift,
+			);
+			target = 7BF993932ED5EBA1003B67B7 /* RAFPreviewExtension */;
+		};
+		7BF993BF2ED5ED1A003B67B7 /* Exceptions for "RAFQuickLook" folder in "RAFThumbnailExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Common.swift,
+			);
+			target = 7BF993AC2ED5EBED003B67B7 /* RAFThumbnailExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7BF9937F2ED5D806003B67B7 /* RAFQuickLook */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7BF993BE2ED5ED1A003B67B7 /* Exceptions for "RAFQuickLook" folder in "RAFPreviewExtension" target */,
+				7BF993BF2ED5ED1A003B67B7 /* Exceptions for "RAFQuickLook" folder in "RAFThumbnailExtension" target */,
+			);
+			path = RAFQuickLook;
+			sourceTree = "<group>";
+		};
+		7BF993982ED5EBA1003B67B7 /* RAFPreviewExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7BF993A42ED5EBA1003B67B7 /* Exceptions for "RAFPreviewExtension" folder in "RAFPreviewExtension" target */,
+			);
+			path = RAFPreviewExtension;
+			sourceTree = "<group>";
+		};
+		7BF993B12ED5EBED003B67B7 /* RAFThumbnailExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7BF993B82ED5EBED003B67B7 /* Exceptions for "RAFThumbnailExtension" folder in "RAFThumbnailExtension" target */,
+			);
+			path = RAFThumbnailExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF9937A2ED5D806003B67B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF993912ED5EBA1003B67B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF993972ED5EBA1003B67B7 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF993AA2ED5EBED003B67B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF993AF2ED5EBED003B67B7 /* QuickLookThumbnailing.framework in Frameworks */,
+				7BF993B02ED5EBED003B67B7 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF993742ED5D806003B67B7 = {
+			isa = PBXGroup;
+			children = (
+				7BF9938B2ED5D867003B67B7 /* README.md */,
+				7BF9937F2ED5D806003B67B7 /* RAFQuickLook */,
+				7BF993982ED5EBA1003B67B7 /* RAFPreviewExtension */,
+				7BF993B12ED5EBED003B67B7 /* RAFThumbnailExtension */,
+				7BF993952ED5EBA1003B67B7 /* Frameworks */,
+				7BF9937E2ED5D806003B67B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF9937E2ED5D806003B67B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF9937D2ED5D806003B67B7 /* RAFQuickLook.app */,
+				7BF993942ED5EBA1003B67B7 /* RAFPreviewExtension.appex */,
+				7BF993AD2ED5EBED003B67B7 /* RAFThumbnailExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF993952ED5EBA1003B67B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF993962ED5EBA1003B67B7 /* Quartz.framework */,
+				7BF993AE2ED5EBED003B67B7 /* QuickLookThumbnailing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF9937C2ED5D806003B67B7 /* RAFQuickLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF993882ED5D807003B67B7 /* Build configuration list for PBXNativeTarget "RAFQuickLook" */;
+			buildPhases = (
+				7BF993792ED5D806003B67B7 /* Sources */,
+				7BF9937A2ED5D806003B67B7 /* Frameworks */,
+				7BF9937B2ED5D806003B67B7 /* Resources */,
+				7BF993A82ED5EBA1003B67B7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF993A22ED5EBA1003B67B7 /* PBXTargetDependency */,
+				7BF993B62ED5EBED003B67B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7BF9937F2ED5D806003B67B7 /* RAFQuickLook */,
+			);
+			name = RAFQuickLook;
+			packageProductDependencies = (
+			);
+			productName = RAFQuickLook;
+			productReference = 7BF9937D2ED5D806003B67B7 /* RAFQuickLook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF993932ED5EBA1003B67B7 /* RAFPreviewExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF993A52ED5EBA1003B67B7 /* Build configuration list for PBXNativeTarget "RAFPreviewExtension" */;
+			buildPhases = (
+				7BF993902ED5EBA1003B67B7 /* Sources */,
+				7BF993912ED5EBA1003B67B7 /* Frameworks */,
+				7BF993922ED5EBA1003B67B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7BF993982ED5EBA1003B67B7 /* RAFPreviewExtension */,
+			);
+			name = RAFPreviewExtension;
+			packageProductDependencies = (
+			);
+			productName = RAFPreviewExtension;
+			productReference = 7BF993942ED5EBA1003B67B7 /* RAFPreviewExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7BF993AC2ED5EBED003B67B7 /* RAFThumbnailExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF993B92ED5EBED003B67B7 /* Build configuration list for PBXNativeTarget "RAFThumbnailExtension" */;
+			buildPhases = (
+				7BF993A92ED5EBED003B67B7 /* Sources */,
+				7BF993AA2ED5EBED003B67B7 /* Frameworks */,
+				7BF993AB2ED5EBED003B67B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7BF993B12ED5EBED003B67B7 /* RAFThumbnailExtension */,
+			);
+			name = RAFThumbnailExtension;
+			packageProductDependencies = (
+			);
+			productName = RAFThumbnailExtension;
+			productReference = 7BF993AD2ED5EBED003B67B7 /* RAFThumbnailExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF993752ED5D806003B67B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					7BF9937C2ED5D806003B67B7 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					7BF993932ED5EBA1003B67B7 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					7BF993AC2ED5EBED003B67B7 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BF993782ED5D806003B67B7 /* Build configuration list for PBXProject "RAFQuickLook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF993742ED5D806003B67B7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7BF9937E2ED5D806003B67B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF9937C2ED5D806003B67B7 /* RAFQuickLook */,
+				7BF993932ED5EBA1003B67B7 /* RAFPreviewExtension */,
+				7BF993AC2ED5EBED003B67B7 /* RAFThumbnailExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF9937B2ED5D806003B67B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF9938C2ED5D874003B67B7 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF993922ED5EBA1003B67B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF993AB2ED5EBED003B67B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF993792ED5D806003B67B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF993902ED5EBA1003B67B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF993A92ED5EBED003B67B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BF993A22ED5EBA1003B67B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF993932ED5EBA1003B67B7 /* RAFPreviewExtension */;
+			targetProxy = 7BF993A12ED5EBA1003B67B7 /* PBXContainerItemProxy */;
+		};
+		7BF993B62ED5EBED003B67B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF993AC2ED5EBED003B67B7 /* RAFThumbnailExtension */;
+			targetProxy = 7BF993B52ED5EBED003B67B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BF993862ED5D807003B67B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BF993872ED5D807003B67B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7BF993892ED5D807003B67B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcs.RAFQuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BF9938A2ED5D807003B67B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcs.RAFQuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7BF993A62ED5EBA1003B67B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAFPreviewExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RAFPreviewExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcs.RAFQuickLook.RAFPreviewExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BF993A72ED5EBA1003B67B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAFPreviewExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RAFPreviewExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcs.RAFQuickLook.RAFPreviewExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7BF993BA2ED5EBED003B67B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAFThumbnailExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RAFThumbnailExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcs.RAFQuickLook.RAFThumbnailExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BF993BB2ED5EBED003B67B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAFThumbnailExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RAFThumbnailExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcs.RAFQuickLook.RAFThumbnailExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF993782ED5D806003B67B7 /* Build configuration list for PBXProject "RAFQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF993862ED5D807003B67B7 /* Debug */,
+				7BF993872ED5D807003B67B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF993882ED5D807003B67B7 /* Build configuration list for PBXNativeTarget "RAFQuickLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF993892ED5D807003B67B7 /* Debug */,
+				7BF9938A2ED5D807003B67B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF993A52ED5EBA1003B67B7 /* Build configuration list for PBXNativeTarget "RAFPreviewExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF993A62ED5EBA1003B67B7 /* Debug */,
+				7BF993A72ED5EBA1003B67B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF993B92ED5EBED003B67B7 /* Build configuration list for PBXNativeTarget "RAFThumbnailExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF993BA2ED5EBED003B67B7 /* Debug */,
+				7BF993BB2ED5EBED003B67B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF993752ED5D806003B67B7 /* Project object */;
+}
