@@ -10,9 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "photo.artframe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            Image("rafIcon")
             VStack {
                 Text("Fuji RAF - Quick Look").bold().padding(.bottom, 4)
                 Text("Registered Preview / Thumbnail Extensions")
