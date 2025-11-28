@@ -35,6 +35,7 @@ Control with 'System Settings/General/Login Items & Extensions/RAFQuickLook'
 ```
 mdls -name kMDItemContentType ./Desktop/Raw/DSCF0000.RAF
 ```
+Should return `com.fuji.raw-image`
 ### Manage/ test  quick look entensions
 ```
 qlmanage -r
