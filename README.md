@@ -1,6 +1,7 @@
 # Fuji RAF Quick Look Extensions
 
 This application includes / registers finder extensions to preview (thumbnails/gallery) Fuji RAF images in finder on MacOS.
+It uses the existing jpeg image embedded in the RAF file.
 
 ## Build / Registration
 
@@ -35,7 +36,7 @@ Control with 'System Settings/General/Login Items & Extensions/RAFQuickLook'
 ```
 mdls -name kMDItemContentType ./Desktop/Raw/DSCF0000.RAF
 ```
-Should return `com.fuji.raw-image`
+This should return `com.fuji.raw-image` for these extensions to work.
 ### Manage/ test  quick look entensions
 ```
 qlmanage -r
